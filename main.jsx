@@ -160,7 +160,7 @@ function LicensePlateTracker() {
   return (
     <div className="max-w-md mx-auto bg-gray-50 min-h-screen font-sans pb-12 shadow-md">
       <header className="bg-blue-600 text-white p-4 sticky top-0 z-10 shadow-md">
-        <h1 className="text-xl font-bold text-center">🚗 Interstate License Tracker</h1>
+        <h1 className="text-xl font-bold text-center">🚗 State Plate Tracker</h1>
         <div className="mt-3 flex justify-center items-center gap-3">
           <button 
             onClick={() => setIsListening(!isListening)}
